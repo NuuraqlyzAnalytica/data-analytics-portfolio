@@ -2,7 +2,8 @@
 
 In your own words, explain what management is trying to accomplish with this report.
 
-By requesting to view all customer and order details including the data that have NULL values. Management is trying to understand what percentage or how many customers are not creating an order. They could also expand to see how active the customers are versus not being active at all if purchase date is included.
+By requesting to view all customer and order details including the data that have NULL values. Management is trying to understand what percentage or how many customers are not creating an order. 
+They could also expand to see how active the customers are versus not being active at all if purchase date is included.
 
 2. JOIN selection
 
@@ -18,7 +19,8 @@ I would choose a LEFT JOIN because it takes all records from the customer table 
 
 Which table would you place on the left side of the JOIN, and why?
 
-The position of the tables are important. Placing the customer on the left side of the join ensure all customer records are selected. The query then performs based on all customer records. It will then be able to see customers with orders and without orders.
+The position of the tables are important. Placing the customer on the left side of the join ensure all customer records are selected. The query then performs based on all customer records.
+It will then be able to see customers with orders and without orders.
 
 4. Expected results
 
