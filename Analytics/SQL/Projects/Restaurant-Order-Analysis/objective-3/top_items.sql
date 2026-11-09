@@ -4,10 +4,13 @@ View the details of the highest spend order */
 
 --Business Question: Which specific items were purchased in the highest spend?
 
+-- Note to see the unit price in the result see the note.
+
 WITH sum_order AS(
 SELECT
     d.order_id,
     SUM(m.price) AS total_price
+    --m.price AS unit_price
 FROM workspace.restaurant_db.order_details AS d
 LEFT JOIN workspace.restaurant_db.menu_items AS m
 ON menu_item_id = item_id
