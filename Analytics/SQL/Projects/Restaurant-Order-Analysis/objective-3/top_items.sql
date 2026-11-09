@@ -2,7 +2,7 @@
  Analyze Customer Behavior 
 View the details of the highest spend order */
 
---Business Question: Which specific items were purchased?
+--Business Question: Which specific items were purchased in the highest spend?
 
 WITH sum_order AS(
 SELECT
