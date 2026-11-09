@@ -16,8 +16,8 @@ FROM workspace.restaurant_db.order_details;
 --===================================================================
 
 --Count how many orders were made and how many items were ordered within this date range
-SELECT COUNT(DISTINCT order_id) AS total_items_ordered,
-       COUNT(*) AS total_items
+SELECT COUNT(DISTINCT order_id) AS unique_orders_places,
+       COUNT(*) AS total_order-detail_records
 FROM workspace.restaurant_db.order_details
 WHERE order_date BETWEEN '2023-01-01' AND '2023-03-31';
 
