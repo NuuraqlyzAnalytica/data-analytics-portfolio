@@ -1,6 +1,6 @@
 /* Analyze Customer Behavior */
 
--- Business question: What were the top 5 orders that spent the most money?
+-- Business Question: What were the top 5 orders that spent the most money?
 
 SELECT
     d.order_id,
